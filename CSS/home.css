@@ -1,0 +1,338 @@
+/*Hero section*/
+.hero {
+    height: 73vh;
+    padding-top: 200px;
+    padding-left: 75px;
+    background-image: url("../Images/Home/hero.jpg");
+    background-size: cover;
+}
+.hero h1 {
+    font-size: 65px;
+    color: white;
+    margin-bottom: 20px;
+}
+.buy {
+    display: flex;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 40px;
+    background-color: #0353A4;
+    color: white;
+    font-size: 0.85rem;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    transition: transform 0.3s ease;
+}
+.buy:hover {
+    transform: scale(1.1);
+}
+
+/*section 1 About Leaf*/
+.section1 {
+    background-color: white;
+    padding: 75px 0px 75px 0px;
+    height: 200px;
+}
+.section1 h6 {
+    color: #023E7D;
+    font-size: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section1 h1 {
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+}
+.section1 p {
+    color: #7D8597;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+.sec2 {
+    background-color: #D2D4DA;
+    padding: 75px 0px 75px 0px;
+    height: 600px;
+}
+.sec2 h6 {
+    color: #002855;
+    font-size: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sec2 h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+}
+.sub h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sub p {
+    font-size: 20px;
+}
+.sub {
+    display: flex;
+    height: 200px;
+    width: 40%;
+    transition: transform 0.3s ease;
+}
+.sub:hover {
+    transform: scale(1.01);
+}
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    margin-top: 30px;
+}
+.msg {
+    padding: 5px 0px 5px 10px;
+    width: 50%;
+}
+.img {
+    object-fit: contain;
+    width: 50%;
+}
+.img img {
+    width: 100%;
+}
+.standout {
+    background-color: white;
+    height: 600px;
+    padding: 50px 0px 50px 0px;
+}
+.phone {
+    height: 500px;
+    background-image: url("../Images/Home/standout.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr;
+}
+.standout h6 {
+    color: #002855;
+    font-size: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.standout h1 {
+    color: #5C677D;
+    font-size: 40px;
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+}
+.dot {
+    height: 65px;
+    background-color: #D2D4DA;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 65px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.item {
+    display: grid;
+    align-content: center;
+    transition: transform 0.3s ease;
+}
+.item:hover {
+    transform: scale(1.10);
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+.item p {
+    font-size: 17.5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.grid {
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    margin: auto auto;
+}
+.space {
+    height: 70px;
+    width: 1%;
+}
+.sec3 {
+    height: 600px;
+    width: 100%;
+    background-color: #D2D4DA;
+    padding: 50px 0px 50px 0px;
+}
+.sec3 h6 {
+    color: #002855;
+    font-size: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sec3 h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+}
+.quote1 {
+    height: 500px;
+    border-radius: 10px;
+    width: 20%;
+    background-color: white;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 4px 12px #00000014;
+}
+.quote1:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 4px 12px #0000003c;
+}
+.quote-img {
+    background-image: url("../Images/Home/user.jpg");
+    background-size: cover;
+    height: 250px;
+    display: block;
+}
+.quote1 h1 {
+    font-size: 20px;
+    color: #0353A4;
+}
+.quote1 h2 {
+    font-size: 10px;
+    color: #D2D4DA;
+}
+.quote h4 {
+    font-size: 20px;
+}
+.quote {
+    padding: 20px;
+    text-wrap: wrap;
+    display: block;
+}
+.test {
+    padding: 20px 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.quote2 {
+    display: block;
+    height: 500px;
+    border-radius: 10px;
+    width: 20%;
+    background-color: white;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 4px 12px #00000014;
+}
+.quote2:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 4px 12px #0000003c;
+}
+.quote2 h4 {
+    font-size: 25px;
+    color: black;
+    margin-top: 50px;
+    padding: 0px 50px;
+
+}
+.quote2 h3 {
+    font-size: 15px;
+    color: #D2D4DA;
+    text-align: left;
+    padding-left: 50px;
+}
+.quote2 h1{
+    font-size: 20px;
+    color: #0353A4;
+    text-align: left;
+    padding-left: 50px;
+}
+.quote2 img {
+    height: 40px;
+    padding: 20px 50px;
+}
+.quotes {
+    display: grid;
+    height: 500px;
+    grid-template-columns: 1fr;
+    width: 40%;
+    align-content: space-between;
+}
+.quote3 {
+    display: flex;
+    height: 200px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 4px 12px #00000014;
+}
+.margin {
+    padding: 10px;
+    height: 100%;
+    width: 50px;
+}
+.margin img {
+    height: 20px;
+    padding-top: 10px;
+}
+.quote4 {
+    padding: 10px;
+    height: 100%;
+}
+.quote3:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 4px 12px #0000003c;
+}
+.quote4 h4 {
+    font-size: 20px;
+    color: black;
+}
+.quote4 h3 {
+    font-size: 15px;
+    color: #D2D4DA;
+}
+.quote4 h1{
+    font-size: 15px;
+    color: #0353A4;
+    text-align: left;
+}
+.cta {
+    background-color: white;
+    height: 200px;
+    padding: 50px;
+}
+.cta-img {
+    height: 200px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../Images/Home/cta.jpg");
+    background-size: cover;
+    color: white;
+    display: block;
+}
+.cta-img h1{
+    padding-top: 50px;
+}
+.explore {
+    display: flex;
+    text-decoration: none;
+    height: 40px;
+    color: white;
+    font-size: 0.85rem;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    background-color: #0353A4;
+    padding: 10px;
+    justify-self: center;
+}

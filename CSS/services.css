@@ -1,0 +1,405 @@
+body {
+    background-color: white;
+}
+.margin {
+    height: 60px;
+    display: flex;
+}
+
+.hero-warp{
+    height: 100vh;
+}
+.hero {
+    background-size: cover;
+    height: 250px;
+    width: 75%;
+    margin: 0 auto;
+}
+.hero-head {
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.explore {
+    display: flex;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 40px;
+    color: black;
+    font-size: 0.85rem;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    margin: 10px;
+    border: 2px solid #D2D4DA;
+    margin: auto auto;
+    box-shadow: 2px 4px 12px #00000014;
+    transition: transform 0.3s ease;
+}
+.explore:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 4px 12px #0000003c;
+    background-color: #D2D4DA;
+    filter: blur(50%);
+}
+.sec1 {
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #D2D4DA;
+}
+.sec1 h1 {
+    font-size: 100px;
+    color: black;
+    padding: 50px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.sec1 h3{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    margin: 20px 100px;
+}
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 150px;
+    margin: 75px auto;
+}
+.ser {
+    align-content: center;
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 20%;
+    box-shadow: 2px 4px 12px #00000014;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+.ser:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 4px 12px #0000003c;
+}
+.services a{
+    text-decoration: none;
+}
+.ser img {
+    height: 60px;
+}
+
+.tv {
+    height: 100vh;
+    background-color: black;
+}
+.video-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    max-width: none;
+}
+
+.tv2{
+    background-color: rgba(0, 0, 0, 0.696);
+    opacity: 1;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: 100%;
+    align-content: center;
+}
+.tv2 h1{
+    font-size: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tv2 img{
+    height: 100px;
+}
+.tv2 h3 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+.tv2 p {
+    font-size: 30px;
+    margin-top: 5px;
+}
+.buy {
+    display: flex;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 40px;
+    color: white;
+    font-size: 0.85rem;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    margin: 10px;
+    border: 2px solid #D2D4DA;
+    margin: auto auto;
+    box-shadow: 2px 4px 12px #00000014;
+    transition: transform 0.3s ease;
+}
+.buy:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 4px 12px #0000003c;
+    background-color: #D2D4DA;
+    filter: blur(50%);
+    color: black;
+}
+
+.music {
+    height: 100vh;
+    background-image: url("../Images/Services/musichero.jpg");
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+}
+.music img{
+    height: 30px;
+}
+.music h3{
+    font-size: 30px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.music h1 {
+    font-size: 100px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+    margin-top: 25px;
+}
+.music h2 {
+    font-size: 24px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 10px 150px;
+    color: #ffffffcc;
+}
+.care {
+    height: 110vh;
+    background-color: #F7B2BD;
+}
+.careinfo {
+    height: 300px;
+    align-content: center;
+    text-align: center;
+}
+.careinfo img {
+    height: 30px;
+}
+.careinfo h2{
+    font-size: 30px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+.careinfo h3 {
+    font-size: 25px;
+    color: white;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0 150px;
+}
+.careinfo h1 {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    color: black;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Individual Pricing Card */
+  .pricing-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Pricing Header */
+  .pricing-header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .pricing-header h2 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .pricing-header p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Features List */
+  .pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .pricing-features li {
+    padding: 8px 0;
+    font-size: 1rem;
+  }
+  
+  .pricing-features .unavailable {
+    color: #999;
+    text-decoration: line-through;
+  }
+  
+  /* Buy Button */
+  .buy-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .buy-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Card Hover Animation */
+  .pricing-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 900px) {
+    .pricing-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+}
+
+.warranty {
+    height: 100vh;
+    background-color: #D7EBFE;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left {
+    height: 100%;
+    width: 60%;
+    color: black;
+    align-content: center;
+}
+.left h3 {
+    font-size: 20px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.left h1 {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 75px;
+}
+.left p {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.right {
+    height: 100%;
+    width: 20%;
+    align-content: center;
+}
+.pricing-card2 {
+    background-color: #0066ff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.price2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.features-list2 {
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.buy-btn2 {
+    background-color: #ffcc00;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+
+.buy-btn2:hover {
+    background-color: #e6b800;
+}
+.cta {
+    background-color: white;
+    height: 200px;
+    padding: 50px;
+}
+.cta-img {
+    height: 200px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../Images/Services/cta.jpg");
+    background-size: cover;
+    color: white;
+    display: block;
+}
+.cta-img h1{
+    padding-top: 50px;
+}
+.cta-btn {
+    display: flex;
+    text-decoration: none;
+    height: 40px;
+    color: white;
+    font-size: 0.85rem;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    background-color: #0353A4;
+    padding: 10px;
+    justify-self: center;
+}

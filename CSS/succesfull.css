@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+}
+.margin {
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+h2{
+    font-size: 50px;
+}
+img {
+    height: 50px;
+}
+h1 {
+    font-size: 100px;
+}
+.tick {
+    background-image: url("../Images/Home/verified.gif");
+    height: 200px;
+    background-size: cover;
+    width: 200px;
+    margin: 0 auto;
+}
+h3 {
+    font-size: 50px;
+    color: green;
+}
+.explore {
+    display: flex;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 40px;
+    color: black;
+    font-size: 0.85rem;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    margin: 10px;
+    border: 2px solid #D2D4DA;
+    margin: auto auto;
+    box-shadow: 2px 4px 12px #00000014;
+    transition: transform 0.3s ease;
+}
+.explore:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 4px 12px #0000003c;
+    background-color: #D2D4DA;
+    filter: blur(50%);
+}
